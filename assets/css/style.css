@@ -45,3 +45,22 @@ header {
     opacity: 50%;
     transition-duration: 500ms;
 }
+
+#score-interface,
+#win-loss-interface {
+    display: flex;
+    justify-content: center;
+    margin: .5em 0;
+    border: solid 1px #fff;
+}
+
+#score-interface {
+    border: solid 1px #fff;
+}
+
+.score-card,
+.win-loss-card {
+    flex-grow: 1;
+    padding: 2em;
+    width: 50%;
+}
