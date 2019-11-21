@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(159.58deg, #4802BA 4.83%, #00B2FF 90%), #00B2FF;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    padding: .5em;
+}
+
+header {
+    padding: 2em;
+}
+
+.container {
+    max-width: 800px;
+    width: 80%;
+    border: solid 1px #fff;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+#crystal-interface {
+    display: flex;
+    flex-direction: row;
+}
+
+.crystal {
+    max-width: 25%;
+}
+
+.crystal img {
+    width: 100%;
+}
+
+.crystal:hover img {
+    opacity: 50%;
+    transition-duration: 500ms;
+}
