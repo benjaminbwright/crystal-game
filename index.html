@@ -26,19 +26,22 @@
             <p>The values of the crystals will change each game.</p>
         </div>
         <div id="crystal-interface">
-            <div class="crystal green"><img src="assets/images/green_crystal.png" alt="Green Crystal"></div>
-            <div class="crystal magenta"><img src="assets/images/magenta_crystal.png" alt="Magenta Crystal"></div>
-            <div class="crystal orange"><img src="assets/images/orange_crystal.png" alt="Orange Crystal"></div>
-            <div class="crystal black"><img src="assets/images/black_crystal.png" alt="Black Crystal"></div>
+            <div id="green-crystal" class="crystal green"><img src="assets/images/green_crystal.png" alt="Green Crystal"></div>
+            <div id="magenta-crystal" class="crystal magenta"><img src="assets/images/magenta_crystal.png" alt="Magenta Crystal"></div>
+            <div id="orange-crystal" class="crystal orange"><img src="assets/images/orange_crystal.png" alt="Orange Crystal"></div>
+            <div id="black-crystal" class="crystal black"><img src="assets/images/black_crystal.png" alt="Black Crystal"></div>
+        </div>
+        <div id="message-interface">
+            <h2 id="info-message">Click a jewel to play</h2>
         </div>
         <div id="score-interface">
             <div class="score-card">
                 <h2>Random Number</h2>
-                <div>0</div>
+                <div id="random-number">0</div>
             </div>
             <div class="score-card">
                 <h2>Total Score</h2>
-                <div>0</div>
+                <div id="total-score">0</div>
             </div>
         </div>
         <div id="win-loss-interface">
@@ -55,6 +58,8 @@
     <footer>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
